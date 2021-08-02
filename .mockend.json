@@ -1,18 +1,13 @@
 {
-  "Post": {
+  "Tutorial": {
     "title": {
       "string": {}
     },
-    "comments": {
-      "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "body": {
+    "description": {
       "string": {}
     },
-    "post": {
-      "belongsTo": "Post"
+    "published": {
+      "boolean": {}
     }
   }
 }
